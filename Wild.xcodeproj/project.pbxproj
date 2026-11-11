@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C58CE6027D609EAD2C828AD0 /* WildApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA3C8D92011845023F8AE6C /* WildApp.swift */; };
+		F936728CCD8E1BEF62CD084B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C8266BB96EA35D59DAFD3B /* ContentView.swift */; };
+		F3C60CFFA4BFF2802864040D /* Species.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ADC99758ABB747ACC166ED /* Species.swift */; };
+		E100C0B3E468F9C1804A9357 /* Sighting.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C290CAA5286BE73E96E1E1 /* Sighting.swift */; };
+		1EBC449DEC27410278D43FF5 /* Habitat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2C455663D6D48D51054C46 /* Habitat.swift */; };
+		A56749F5AD324677F667B371 /* Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C207745B5E87A4A2DEC897 /* Achievement.swift */; };
+		E7E4D45CC44807DE790B69E6 /* Soundscape.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC79BBDBD34FE4700FD1F58 /* Soundscape.swift */; };
+		883EC63A81871365AC1F8E3F /* ExploreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B38B01150FE1AFEE715F3E /* ExploreViewModel.swift */; };
+		C728CCAFB385C403866DBB9C /* FieldGuideViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DF203E4736A7FEAC33C1D4 /* FieldGuideViewModel.swift */; };
+		38356F619F06F27CCDE2FC0B /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7D7C56A26BE00999617157 /* MapViewModel.swift */; };
+		EF4CA90C1FB52D0710AE0324 /* JournalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842E30C4BE287494D11AB330 /* JournalViewModel.swift */; };
+		C8FCC96BFA6531593FD19805 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44746B9F9FC06B9A4C9FF5AA /* ProfileViewModel.swift */; };
+		66EB4CD0E48C7D03CBA59DCF /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF292BDEE810C65B04CBD2A3 /* MainTabView.swift */; };
+		9A95B65A0B7AD8287B8861E3 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9B73F59729AA04F61C9068 /* ExploreView.swift */; };
+		EF90D1C2EA91E96605E31040 /* SpeciesSpotlightCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C55B9399D2A9664825320D7 /* SpeciesSpotlightCard.swift */; };
+		788DA580FF9C8DB33B47498A /* HabitatCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641A576AEE131938458657D5 /* HabitatCard.swift */; };
+		D5970C559BC2FFBE7E795D7F /* FieldGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC20345D9F54C3603DB636C /* FieldGuideView.swift */; };
+		D775D23533B4A3F67F925C45 /* SpeciesDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDEA897EFCA602ED96B1C22 /* SpeciesDetailView.swift */; };
+		8871CD1F9B7F8C4D5453320F /* SpeciesFilterSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A792ECB56B19DB503F1B266 /* SpeciesFilterSheet.swift */; };
+		640A2A09B868427FCD4E1391 /* JournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8211FE5918B22FB07079EB3E /* JournalView.swift */; };
+		9F2DFEFEC0658A9951E7329E /* NewSightingSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F7AA90CFC93FCB1BCEAF88 /* NewSightingSheet.swift */; };
+		40B59370BC72D21F5B48C958 /* SightingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BA907ECE3D9CBE168610BA /* SightingDetailView.swift */; };
+		E486723B2F0F62AA01448E20 /* WildlifeMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294FF80A31653625D6EF6ABC /* WildlifeMapView.swift */; };
+		CD61F2CB34135ABCEB6196F8 /* SightingAnnotationCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0A007EC9772CE8DC32259A /* SightingAnnotationCard.swift */; };
+		61465F6B6E59A6EB0ED9E8CD /* SoundscapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72ABE628B2B20F1421594396 /* SoundscapesView.swift */; };
+		B3AF7457783FB58AB3D43603 /* FieldIdentifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3DC93E1C9567BDBE471201 /* FieldIdentifierView.swift */; };
+		7E96E741CB36BC1E8C78A832 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54C1173667C6563CFA869DA /* ProfileView.swift */; };
+		FC10A8EF1E177B067A387C43 /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50207D70B1303F31EA1FE0C2 /* AchievementsView.swift */; };
+		11FCB3DB6633FE358AAD2E31 /* StatusBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF5FAD3A37F27445CE7A864 /* StatusBadge.swift */; };
+		63C0DD8BE440914A22628FB1 /* StatCounterCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2858B2FA1B70CFFFB0DA6A22 /* StatCounterCard.swift */; };
+		5577E5C2E1C01FAD358B4D25 /* HabitatTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57850A09F5125E4800975753 /* HabitatTag.swift */; };
+		D6E8E7A3649FB8E41CC47E2C /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F678537F9B329C21D1938CA /* DataStore.swift */; };
+		720E5054126BE694FCA73E27 /* MockDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23E5017CD7A37BFAB985AA4 /* MockDataLoader.swift */; };
+		A87CF0694BB843A2B28DF0DF /* AudioPlayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BE1448F352E3D94CB1B674 /* AudioPlayerService.swift */; };
+		1E673B97FC278F30889AE20A /* WildTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE1B96E104F561D2AE26482 /* WildTheme.swift */; };
+		319A1930BCD1E99EE352580A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCD0AE32940B43A0FDF4146E /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		184207510399D074E2572977 /* Wild.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wild.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AA3C8D92011845023F8AE6C /* WildApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WildApp.swift; sourceTree = "<group>"; };
+		30C8266BB96EA35D59DAFD3B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		35ADC99758ABB747ACC166ED /* Species.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Species.swift; sourceTree = "<group>"; };
+		B1C290CAA5286BE73E96E1E1 /* Sighting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sighting.swift; sourceTree = "<group>"; };
+		0E2C455663D6D48D51054C46 /* Habitat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habitat.swift; sourceTree = "<group>"; };
+		66C207745B5E87A4A2DEC897 /* Achievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Achievement.swift; sourceTree = "<group>"; };
+		EAC79BBDBD34FE4700FD1F58 /* Soundscape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soundscape.swift; sourceTree = "<group>"; };
+		20B38B01150FE1AFEE715F3E /* ExploreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewModel.swift; sourceTree = "<group>"; };
+		11DF203E4736A7FEAC33C1D4 /* FieldGuideViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldGuideViewModel.swift; sourceTree = "<group>"; };
+		2F7D7C56A26BE00999617157 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		842E30C4BE287494D11AB330 /* JournalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewModel.swift; sourceTree = "<group>"; };
+		44746B9F9FC06B9A4C9FF5AA /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		FF292BDEE810C65B04CBD2A3 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		DA9B73F59729AA04F61C9068 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		3C55B9399D2A9664825320D7 /* SpeciesSpotlightCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeciesSpotlightCard.swift; sourceTree = "<group>"; };
+		641A576AEE131938458657D5 /* HabitatCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitatCard.swift; sourceTree = "<group>"; };
+		1DC20345D9F54C3603DB636C /* FieldGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldGuideView.swift; sourceTree = "<group>"; };
+		CDDEA897EFCA602ED96B1C22 /* SpeciesDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeciesDetailView.swift; sourceTree = "<group>"; };
+		5A792ECB56B19DB503F1B266 /* SpeciesFilterSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeciesFilterSheet.swift; sourceTree = "<group>"; };
+		8211FE5918B22FB07079EB3E /* JournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalView.swift; sourceTree = "<group>"; };
+		53F7AA90CFC93FCB1BCEAF88 /* NewSightingSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSightingSheet.swift; sourceTree = "<group>"; };
+		72BA907ECE3D9CBE168610BA /* SightingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SightingDetailView.swift; sourceTree = "<group>"; };
+		294FF80A31653625D6EF6ABC /* WildlifeMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WildlifeMapView.swift; sourceTree = "<group>"; };
+		CD0A007EC9772CE8DC32259A /* SightingAnnotationCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SightingAnnotationCard.swift; sourceTree = "<group>"; };
+		72ABE628B2B20F1421594396 /* SoundscapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundscapesView.swift; sourceTree = "<group>"; };
+		DB3DC93E1C9567BDBE471201 /* FieldIdentifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldIdentifierView.swift; sourceTree = "<group>"; };
+		D54C1173667C6563CFA869DA /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		50207D70B1303F31EA1FE0C2 /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		BEF5FAD3A37F27445CE7A864 /* StatusBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBadge.swift; sourceTree = "<group>"; };
+		2858B2FA1B70CFFFB0DA6A22 /* StatCounterCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatCounterCard.swift; sourceTree = "<group>"; };
+		57850A09F5125E4800975753 /* HabitatTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitatTag.swift; sourceTree = "<group>"; };
+		8F678537F9B329C21D1938CA /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		A23E5017CD7A37BFAB985AA4 /* MockDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDataLoader.swift; sourceTree = "<group>"; };
+		55BE1448F352E3D94CB1B674 /* AudioPlayerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerService.swift; sourceTree = "<group>"; };
+		9DE1B96E104F561D2AE26482 /* WildTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WildTheme.swift; sourceTree = "<group>"; };
+		DCD0AE32940B43A0FDF4146E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		024A30D9F689694741BD590F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		766EABB7A3DDDF0C5BE37856 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77C037C483DC6B00C463C5F9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1AA3C8D92011845023F8AE6C /* WildApp.swift */,
+				30C8266BB96EA35D59DAFD3B /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		BC8E6A5FDB0FEE50AF1B10E7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				35ADC99758ABB747ACC166ED /* Species.swift */,
+				B1C290CAA5286BE73E96E1E1 /* Sighting.swift */,
+				0E2C455663D6D48D51054C46 /* Habitat.swift */,
+				66C207745B5E87A4A2DEC897 /* Achievement.swift */,
+				EAC79BBDBD34FE4700FD1F58 /* Soundscape.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F3533A2279EAD65233E99B38 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				20B38B01150FE1AFEE715F3E /* ExploreViewModel.swift */,
+				11DF203E4736A7FEAC33C1D4 /* FieldGuideViewModel.swift */,
+				2F7D7C56A26BE00999617157 /* MapViewModel.swift */,
+				842E30C4BE287494D11AB330 /* JournalViewModel.swift */,
+				44746B9F9FC06B9A4C9FF5AA /* ProfileViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B9A1CA44859B90B578037092 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				FF292BDEE810C65B04CBD2A3 /* MainTabView.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		FBA7A1887DE80E49167DAE0D /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				DA9B73F59729AA04F61C9068 /* ExploreView.swift */,
+				3C55B9399D2A9664825320D7 /* SpeciesSpotlightCard.swift */,
+				641A576AEE131938458657D5 /* HabitatCard.swift */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		572E6DA2BE3D92823B643120 /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+				1DC20345D9F54C3603DB636C /* FieldGuideView.swift */,
+				CDDEA897EFCA602ED96B1C22 /* SpeciesDetailView.swift */,
+				5A792ECB56B19DB503F1B266 /* SpeciesFilterSheet.swift */,
+			);
+			path = Guide;
+			sourceTree = "<group>";
+		};
+		9EBE2D44413E3D8457B49647 /* Journal */ = {
+			isa = PBXGroup;
+			children = (
+				8211FE5918B22FB07079EB3E /* JournalView.swift */,
+				53F7AA90CFC93FCB1BCEAF88 /* NewSightingSheet.swift */,
+				72BA907ECE3D9CBE168610BA /* SightingDetailView.swift */,
+			);
+			path = Journal;
+			sourceTree = "<group>";
+		};
+		C72DD8DEBB82613979371B93 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				294FF80A31653625D6EF6ABC /* WildlifeMapView.swift */,
+				CD0A007EC9772CE8DC32259A /* SightingAnnotationCard.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		24CACB2FEDE06F2DC3C17462 /* Soundscapes */ = {
+			isa = PBXGroup;
+			children = (
+				72ABE628B2B20F1421594396 /* SoundscapesView.swift */,
+			);
+			path = Soundscapes;
+			sourceTree = "<group>";
+		};
+		54AD5AC5DC5CB2478175C47B /* Identifier */ = {
+			isa = PBXGroup;
+			children = (
+				DB3DC93E1C9567BDBE471201 /* FieldIdentifierView.swift */,
+			);
+			path = Identifier;
+			sourceTree = "<group>";
+		};
+		AD175D30C8DBFF98D4C4A07F /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				D54C1173667C6563CFA869DA /* ProfileView.swift */,
+				50207D70B1303F31EA1FE0C2 /* AchievementsView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		7ED8C70510190B876F51EFCA /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BEF5FAD3A37F27445CE7A864 /* StatusBadge.swift */,
+				2858B2FA1B70CFFFB0DA6A22 /* StatCounterCard.swift */,
+				57850A09F5125E4800975753 /* HabitatTag.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FA1196890D421541891D17B1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8F678537F9B329C21D1938CA /* DataStore.swift */,
+				A23E5017CD7A37BFAB985AA4 /* MockDataLoader.swift */,
+				55BE1448F352E3D94CB1B674 /* AudioPlayerService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		12EF7875862F3BB69D3F44C9 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				9DE1B96E104F561D2AE26482 /* WildTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		B642DCC00EC1A184662227C2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DCD0AE32940B43A0FDF4146E /* Assets.xcassets */,
+				024A30D9F689694741BD590F /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F867080DDDCAA8CC74A91BE2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B9A1CA44859B90B578037092 /* Navigation */,
+				FBA7A1887DE80E49167DAE0D /* Explore */,
+				572E6DA2BE3D92823B643120 /* Guide */,
+				9EBE2D44413E3D8457B49647 /* Journal */,
+				C72DD8DEBB82613979371B93 /* Map */,
+				24CACB2FEDE06F2DC3C17462 /* Soundscapes */,
+				54AD5AC5DC5CB2478175C47B /* Identifier */,
+				AD175D30C8DBFF98D4C4A07F /* Profile */,
+				7ED8C70510190B876F51EFCA /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B88D7E26791946AEFDCC8BB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				184207510399D074E2572977 /* Wild.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54E11A31C991841D3E4BBB6B /* Wild */ = {
+			isa = PBXGroup;
+			children = (
+				77C037C483DC6B00C463C5F9 /* App */,
+				BC8E6A5FDB0FEE50AF1B10E7 /* Models */,
+				F3533A2279EAD65233E99B38 /* ViewModels */,
+				F867080DDDCAA8CC74A91BE2 /* Views */,
+				FA1196890D421541891D17B1 /* Services */,
+				12EF7875862F3BB69D3F44C9 /* Theme */,
+				B642DCC00EC1A184662227C2 /* Resources */,
+			);
+			path = Wild;
+			sourceTree = "<group>";
+		};
+		0A85897F1A32FE9B91C081CD = {
+			isa = PBXGroup;
+			children = (
+				54E11A31C991841D3E4BBB6B /* Wild */,
+				B88D7E26791946AEFDCC8BB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91C025E134A99B14A08D8E01 /* Wild */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4977ED30DDFEF48DA821F2BF /* Build configuration list for PBXNativeTarget "Wild" */;
+			buildPhases = (
+				0E1EEB3C39FA70BFD3E6FEB0 /* Sources */,
+				766EABB7A3DDDF0C5BE37856 /* Frameworks */,
+				781B1EA3DCD06C2932EFB49A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wild;
+			productName = Wild;
+			productReference = 184207510399D074E2572977 /* Wild.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A714FD6B079E972445851C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					91C025E134A99B14A08D8E01 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 9B7A4A2B574091F58331C211 /* Build configuration list for PBXProject "Wild" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A85897F1A32FE9B91C081CD;
+			productRefGroup = B88D7E26791946AEFDCC8BB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91C025E134A99B14A08D8E01 /* Wild */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		781B1EA3DCD06C2932EFB49A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				319A1930BCD1E99EE352580A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E1EEB3C39FA70BFD3E6FEB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C58CE6027D609EAD2C828AD0 /* WildApp.swift in Sources */,
+				F936728CCD8E1BEF62CD084B /* ContentView.swift in Sources */,
+				F3C60CFFA4BFF2802864040D /* Species.swift in Sources */,
+				E100C0B3E468F9C1804A9357 /* Sighting.swift in Sources */,
+				1EBC449DEC27410278D43FF5 /* Habitat.swift in Sources */,
+				A56749F5AD324677F667B371 /* Achievement.swift in Sources */,
+				E7E4D45CC44807DE790B69E6 /* Soundscape.swift in Sources */,
+				883EC63A81871365AC1F8E3F /* ExploreViewModel.swift in Sources */,
+				C728CCAFB385C403866DBB9C /* FieldGuideViewModel.swift in Sources */,
+				38356F619F06F27CCDE2FC0B /* MapViewModel.swift in Sources */,
+				EF4CA90C1FB52D0710AE0324 /* JournalViewModel.swift in Sources */,
+				C8FCC96BFA6531593FD19805 /* ProfileViewModel.swift in Sources */,
+				66EB4CD0E48C7D03CBA59DCF /* MainTabView.swift in Sources */,
+				9A95B65A0B7AD8287B8861E3 /* ExploreView.swift in Sources */,
+				EF90D1C2EA91E96605E31040 /* SpeciesSpotlightCard.swift in Sources */,
+				788DA580FF9C8DB33B47498A /* HabitatCard.swift in Sources */,
+				D5970C559BC2FFBE7E795D7F /* FieldGuideView.swift in Sources */,
+				D775D23533B4A3F67F925C45 /* SpeciesDetailView.swift in Sources */,
+				8871CD1F9B7F8C4D5453320F /* SpeciesFilterSheet.swift in Sources */,
+				640A2A09B868427FCD4E1391 /* JournalView.swift in Sources */,
+				9F2DFEFEC0658A9951E7329E /* NewSightingSheet.swift in Sources */,
+				40B59370BC72D21F5B48C958 /* SightingDetailView.swift in Sources */,
+				E486723B2F0F62AA01448E20 /* WildlifeMapView.swift in Sources */,
+				CD61F2CB34135ABCEB6196F8 /* SightingAnnotationCard.swift in Sources */,
+				61465F6B6E59A6EB0ED9E8CD /* SoundscapesView.swift in Sources */,
+				B3AF7457783FB58AB3D43603 /* FieldIdentifierView.swift in Sources */,
+				7E96E741CB36BC1E8C78A832 /* ProfileView.swift in Sources */,
+				FC10A8EF1E177B067A387C43 /* AchievementsView.swift in Sources */,
+				11FCB3DB6633FE358AAD2E31 /* StatusBadge.swift in Sources */,
+				63C0DD8BE440914A22628FB1 /* StatCounterCard.swift in Sources */,
+				5577E5C2E1C01FAD358B4D25 /* HabitatTag.swift in Sources */,
+				D6E8E7A3649FB8E41CC47E2C /* DataStore.swift in Sources */,
+				720E5054126BE694FCA73E27 /* MockDataLoader.swift in Sources */,
+				A87CF0694BB843A2B28DF0DF /* AudioPlayerService.swift in Sources */,
+				1E673B97FC278F30889AE20A /* WildTheme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2E4E6CCF5D6EF365E5C97DDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDEFINED_VARIABLES = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7BE66DFF231D03044D5C4C4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDEFINED_VARIABLES = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = "wholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75C43E90EFD001E36BF60147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Wild/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wild.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		763EE87794306FA0DE784359 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Wild/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wild.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B7A4A2B574091F58331C211 /* Build configuration list for PBXProject "Wild" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E4E6CCF5D6EF365E5C97DDB /* Debug */,
+				7BE66DFF231D03044D5C4C4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4977ED30DDFEF48DA821F2BF /* Build configuration list for PBXNativeTarget "Wild" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75C43E90EFD001E36BF60147 /* Debug */,
+				763EE87794306FA0DE784359 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A714FD6B079E972445851C7 /* Project object */;
+}
