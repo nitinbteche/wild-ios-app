@@ -1,47 +1,54 @@
-# Wild — iOS Wildlife & Field Exploration App 🌿🐾
+# EthicalGrow — Official iOS Application 🚀📚
 
-**Wild** is a native iOS application built with **SwiftUI** and **Clean MVVM Architecture**, designed for wildlife enthusiasts, field naturalists, and outdoor explorers. Document species encounters, explore high-definition wildlife field guides, track sightings on interactive habitat radars, experience biophony soundscapes, and test AI field identification.
+> **"Grow Spiritually and Financially"** — Official iOS client for [ethicalgrow.in](https://ethicalgrow.in).
+
+**EthicalGrow** is a digital learning and skill-development platform founded by **Er. Nitin Kumar (Founder & CEO)** and **Aditya Taak (Co-Founder)** based in Moradabad, Uttar Pradesh, India. This native iOS application delivers a learning experience combining a modern **SwiftUI** interface with an integrated **Web Portal Bridge** (`WKWebView`) to access the student dashboard, packages, and courses directly.
 
 ---
 
-## ✨ Key Features
+## 🌟 Key App Features
 
-### 1. 🌟 Explore Hub & Spotlight
-* **Daily Featured Species**: Dynamic spotlight highlighting global wildlife, taxonomy, IUCN Red List status, and behavioral facts.
-* **Seasonal Migration Radar**: Real-time alerts on active avian and insect migration corridors (e.g. Monarch butterfly autumn flyway).
-* **Biome Discovery Carousel**: Explore major planetary biomes (Tropical Rainforest, Alpine Tundra, Pelagic Oceans, Savannas) and their keystone species.
-* **Quick Metrics**: Instant dashboard tracking total encounters, distinct species logged, and earned ranger badges.
+### 1. 🏠 Home & Discovery Hub
+* **Hero Spotlight**: Dynamic banner promoting practical, in-demand digital competencies.
+* **Platform Key Metrics**: Tracking 50,000+ Learners, 15+ In-Demand Skill Courses, 99.8% Satisfaction, and 24/7 Mentorship.
+* **Featured Skill Bundles**: 1-tap preview of top skill packages.
+* **Trending Courses**: Carousel featuring Python, Power BI, Photoshop 2027, YouTube Mastery, and Canva Pro.
+* **Founder Spotlight**: Messages from Er. Nitin Kumar & Aditya Taak.
 
-### 2. 📖 Comprehensive Field Guide & Encyclopedia
-* **Curated Species Database**: In-depth profiles covering mammals, birds, reptiles, amphibians, marine life, and insects.
-* **IUCN Red List Statuses**: Color-coded badges for *Critically Endangered (CR)*, *Endangered (EN)*, *Vulnerable (VU)*, *Near Threatened (NT)*, and *Least Concern (LC)*.
-* **Taxonomic Hierarchy**: Complete scientific classification (Kingdom $\to$ Phylum $\to$ Class $\to$ Order $\to$ Family $\to$ Genus).
-* **Key Characteristics**: Matrix of diet, lifespan, weight, size, natural habitats, threats, and fun facts.
-* **Vocal Call Simulation**: Audio visualizer depicting species vocalizations (e.g., Tiger roar, Snow leopard chuff, Whale song).
-* **Multi-Filter & Instant Search**: Filter by taxonomic group, conservation urgency, or saved bookmarks.
+### 2. 📦 Official Skill Packages
+* **All 6 Official Bundles** with 50% limited-time discounts:
+  * **Ethical Beginner** (₹399, was ₹798) — Basic YouTube, Canva Pro & Orientation.
+  * **Ethical Basic** (₹999, was ₹1,998) — VN Video Editor, Instagram Mastery & Community Access.
+  * **Ethical Starter** (₹1,799, was ₹3,598) — Adobe Photoshop 2027 & Advance YouTube Strategy.
+  * **Ethical Standards** (₹3,699, was ₹7,398) — C++ Coding & Data Structures Foundations.
+  * **Ethical Advance** (₹7,499, was ₹14,998) — Python Programming & Power BI Business Analytics.
+  * **Ethical Pro** (₹11,999, was ₹23,998) — Complete All-Inclusive Master Suite & Founder Mentorship.
+* **Detailed Syllabus Sheets**: Preview included courses, perks, verified certification, and instant enrollment checkout via `ethicalgrow.in`.
 
-### 3. 🗺️ Wildlife Radar & Global Sightings Map
-* **MapKit Integration**: Interactive coordinate mapping of field encounters with custom category annotations.
-* **Biome & Category Filters**: Filter markers by Mammals 🐾, Birds 🦅, Reptiles 🦎, Marine Life 🐋, Amphibians 🐸, and Insects 🦋.
-* **Waypoint Inspect**: Tap any map pin to inspect observation timestamp, location name, and jump directly into the field log.
+### 3. 🎓 Comprehensive Skill Academy (Courses)
+* **Categorized Curriculum**:
+  * 💻 **Coding & Tech**: Python Programming (Beginner to Advanced), Advance Power BI, C++ Programming.
+  * 🎨 **Design & Creative**: Adobe Photoshop 2027, Canva Pro Graphic Design.
+  * 🎬 **Video & Content**: VN Video Editor (Vlog Now), Advance YouTube Mastery.
+  * 📈 **Growth & Marketing**: Instagram Mastery (Grow, Monetize & Brand).
+* **Live Search & Filter**: Filter courses by category or search by topic.
+* **Module Breakdown**: Complete syllabus modules for each course.
 
-### 4. 📓 Field Journal & Encounter Logger
-* **Field Observation Logging**: Log new sightings with date/time, count, location names, and GPS coordinate tagging.
-* **Environmental Context**: Log weather conditions (Sunny, Fog, Rain, Snow) and observation confidence level (Confirmed, Probable, Possible).
-* **Tags & Field Notes**: Support for custom hashtags (e.g. `#BreedingPair`, `#ApexPredator`, `#LakeView`).
-* **Local Persistence**: Sightings and bookmarks automatically persist across app launches.
+### 4. 🎥 Official Presentation & Plan
+* **Embedded Video Player**: Watch the official presentation video (`nF9hdovMLRk`) directly inside the app with YouTube webkit inline playback.
+* **Platform Pillars**: Practical skills, ethical transparency, verifiable certificates, and active community mentorship.
+* **Interactive FAQ**: Collapsible answers to common student questions.
 
-### 5. 🎧 Wild Biome Soundscapes (Acoustic Ecology)
-* **High-Definition Nature Audio**: Immersive acoustic environments including Amazon Canopy Chorus, Himalayan Ridge Wind, Serengeti Dusk Symphony, and Deep Pelagic Drift.
-* **Interactive Player**: Background audio mode, live waveform visualizer, progress scrub, and volume controls.
+### 5. 🌐 Student Portal (Live Web Bridge)
+* **Embedded `WKWebView`**: Fast, smooth in-app browsing of [ethicalgrow.in](https://ethicalgrow.in).
+* **Direct Shortcuts**: Quick toggle between **Student Login**, **Registration**, **Full Website**, and **Packages**.
+* **Navigation Controls**: Back, Forward, Reload, Share, and "Open in Safari" actions.
 
-### 6. 🔍 Field AI Species Recognition (Scanner Simulation)
-* **Morphological Scanner**: Camera reticle viewfinder with scanning radar animation.
-* **Confidence Scoring**: Simulates on-device Vision/CoreML classification with probability matches and 1-tap logging.
-
-### 7. 🏅 Ranger Badges & Field Milestones
-* **Accolades Engine**: Automatically tracks milestones (*First Step into the Wild*, *Avian Enthusiast*, *Apex Observer*, *Ocean Sentinel*, *Master Ranger*).
-* **Ranger Profile**: Field title, unit preferences (Metric vs Imperial), and offline cache settings.
+### 6. 💬 Dedicated WhatsApp & Support Desk
+* **1-Tap WhatsApp Support**: Direct launch to official WhatsApp helpline (`+91 6397165292`).
+* **Direct Helpline & Email**: Instant calling and email links (`support@ethicalgrow.in`).
+* **Official Social Channels**: Direct access to YouTube (`@ethicalgrow`), Instagram (`@ethicalgrow_`), and Facebook.
+* **Compliance & Transparency**: Clear educational disclaimers and terms.
 
 ---
 
@@ -49,97 +56,80 @@
 
 ```
 wild-ios-app/
-├── Wild.xcodeproj/                  # Standard Xcode Project configuration
-├── Package.swift                     # Swift Package Manager manifest (iOS 17+, macOS 14+)
+├── EthicalGrow.xcodeproj/           # Xcode Project configured for iOS 17.0+
+├── Package.swift                     # Swift Package Manager manifest
 ├── README.md
-└── Wild/
+└── EthicalGrow/
     ├── App/
-    │   ├── WildApp.swift             # Main SwiftUI application entry point
-    │   └── ContentView.swift         # Root environment injection container
+    │   ├── EthicalGrowApp.swift      # Main SwiftUI application entry point (@main)
+    │   └── ContentView.swift         # Root navigation container
     ├── Models/
-    │   ├── Species.swift             # Species, Taxonomy, IUCN status & Categories
-    │   ├── Sighting.swift            # Observation logs, Weather & Confidence models
-    │   ├── Habitat.swift             # Planetary biomes & ecological coverage
-    │   ├── Achievement.swift         # Ranger milestones & progress tracking
-    │   └── Soundscape.swift          # Acoustic ecology audio tracks
-    ├── ViewModels/
-    │   ├── ExploreViewModel.swift    # Spotlight rotation & biome data binding
-    │   ├── FieldGuideViewModel.swift # Search, filtering & bookmarking engine
-    │   ├── MapViewModel.swift        # MapKit coordinates & viewport control
-    │   ├── JournalViewModel.swift    # Sighting CRUD & search indexing
-    │   └── ProfileViewModel.swift    # User stats, rank & settings preferences
+    │   ├── PackageItem.swift         # Packages, pricing, discounts, and features
+    │   ├── CourseItem.swift          # Courses, curriculum, ratings, and categories
+    │   └── FAQItem.swift             # Frequently asked questions & leadership models
+    ├── Services/
+    │   └── EthicalGrowData.swift     # Central catalog of packages, courses, and URLs
+    ├── Theme/
+    │   └── EthicalGrowTheme.swift    # Official Brand Gradient (#1565C0 -> #8E24AA -> #D81B60)
     ├── Views/
     │   ├── Navigation/
     │   │   └── MainTabView.swift     # 6-tab primary navigation controller
-    │   ├── Explore/
-    │   │   ├── ExploreView.swift     # Home dashboard & daily discovery
-    │   │   ├── SpeciesSpotlightCard.swift
-    │   │   └── HabitatCard.swift
-    │   ├── Guide/
-    │   │   ├── FieldGuideView.swift  # Searchable species catalog
-    │   │   ├── SpeciesDetailView.swift
-    │   │   └── SpeciesFilterSheet.swift
-    │   ├── Map/
-    │   │   ├── WildlifeMapView.swift # MapKit radar with custom callouts
-    │   │   └── SightingAnnotationCard.swift
-    │   ├── Journal/
-    │   │   ├── JournalView.swift     # Sightings timeline
-    │   │   ├── NewSightingSheet.swift # Form to log observations
-    │   │   └── SightingDetailView.swift
-    │   ├── Soundscapes/
-    │   │   └── SoundscapesView.swift # Biome acoustic player & visualizer
-    │   ├── Identifier/
-    │   │   └── FieldIdentifierView.swift # AI camera scanner simulation
-    │   ├── Profile/
-    │   │   ├── ProfileView.swift     # Ranger stats & system settings
-    │   │   └── AchievementsView.swift
+    │   ├── Home/
+    │   │   └── HomeView.swift        # Landing hub, metrics, carousels, founder quote
+    │   ├── Packages/
+    │   │   ├── PackagesListView.swift # Full package catalog
+    │   │   └── PackageCardView.swift  # Package card & detail sheet
+    │   ├── Courses/
+    │   │   ├── CoursesListView.swift  # Searchable & filterable course catalog
+    │   │   └── CourseCardView.swift   # Course card & syllabus sheet
+    │   ├── Presentation/
+    │   │   └── PresentationView.swift # Embedded YouTube video & platform pillars
+    │   ├── WebPortal/
+    │   │   └── WebPortalView.swift    # WKWebView student portal with toolbar
+    │   ├── Support/
+    │   │   └── SupportView.swift      # WhatsApp chat, calling, email & socials
     │   └── Components/
-    │       ├── StatusBadge.swift     # IUCN conservation pill tag
-    │       ├── StatCounterCard.swift # Metric counter card
-    │       ├── HabitatTag.swift      # Category pill chip
-    │       └── AudioVisualizerView.swift # Dynamic animated audio bars
-    ├── Services/
-    │   ├── DataStore.swift           # Centralized reactive state & persistence
-    │   ├── MockDataLoader.swift      # Comprehensive seed catalog
-    │   └── AudioPlayerService.swift  # Nature ambiance audio engine
-    ├── Theme/
-    │   └── WildTheme.swift           # Palette: Forest Greens, Amber & Earth tones
+    │       └── GradientButton.swift   # Custom gradient buttons & stat badges
     └── Resources/
-        ├── Info.plist                # Privacy permissions (Location, Camera, Audio)
-        └── Assets.xcassets/          # App icon & Accent color catalog
+        ├── Info.plist                # Permissions & App Transport Security
+        └── Assets.xcassets/          # AppIcon & AccentColor (#1565C0)
 ```
 
 ---
 
-## 🚀 Getting Started
+## 🎨 Official Brand Identity
 
-### Requirements
-* **iOS 17.0+**
-* **Xcode 15.0+** or **Xcode 16.0+**
-* **Swift 5.9+** or **Swift 6.0+**
+* **Primary Blue**: `#1565C0`
+* **Royal Blue Dark**: `#0D47A1`
+* **Spiritual Purple**: `#8E24AA`
+* **Vibrant Pink**: `#D81B60`
+* **Success Green**: `#059669`
+* **WhatsApp Green**: `#25D366`
+* **Signature Gradient**: `linear-gradient(135deg, #1565C0, #8E24AA, #D81B60)`
 
-### Opening in Xcode
-1. Clone the repository:
+---
+
+## 🚀 How to Run in Xcode
+
+1. Clone or pull this repository:
    ```bash
    git clone https://github.com/nitinbteche/wild-ios-app.git
    cd wild-ios-app
    ```
-2. Open `Wild.xcodeproj` in Xcode:
+2. Open [`EthicalGrow.xcodeproj`](file:///home/runner/work/wild-ios-app/wild-ios-app/EthicalGrow.xcodeproj/project.pbxproj) in Xcode:
    ```bash
-   open Wild.xcodeproj
+   open EthicalGrow.xcodeproj
    ```
-   *(Alternatively, open the folder directly as a Swift Package in Xcode).*
-3. Select an iOS Simulator (e.g., iPhone 15 Pro, iPhone 16 Pro) and hit **Run (⌘ + R)**.
+3. Choose an iOS Simulator (e.g. **iPhone 15 Pro**, **iPhone 16**) or your physical iPhone.
+4. Press **⌘ + R** to build and run.
 
 ---
 
-## 🎨 Design System
+## 👨‍💼 Leadership & Contacts
 
-* **Forest Palette**: Deep Evergreen (`#1E3F20`), Emerald (`#0E2818`), Leaf Green (`#5C996B`), Moss (`#4A7C59`).
-* **Accents**: Earth Amber (`#E08D3C`), Terracotta (`#C85A32`), River Blue (`#2B6CB0`).
-* **Adaptive Materials**: Native SwiftUI `.ultraThinMaterial` and semantic system colors supporting both Dark Mode and Light Mode seamlessly.
-
----
-
-## 📜 License
-MIT License. Built for nature explorers and wildlife advocates worldwide.
+* **Founder & CEO**: Er. Nitin Kumar
+* **Co-Founder**: Aditya Taak
+* **Location**: Moradabad, Uttar Pradesh, India
+* **Website**: [ethicalgrow.in](https://ethicalgrow.in)
+* **WhatsApp Support**: [+91 6397165292](https://wa.me/916397165292)
+* **Support Email**: `support@ethicalgrow.in`

@@ -2,22 +2,22 @@
 import PackageDescription
 
 let package = Package(
-    name: "Wild",
+    name: "EthicalGrow",
     platforms: [
         .iOS(.v17),
         .macOS(.v14)
     ],
     products: [
         .library(
-            name: "Wild",
-            targets: ["Wild"]
+            name: "EthicalGrow",
+            targets: ["EthicalGrow"]
         )
     ],
     dependencies: [],
     targets: [
         .target(
-            name: "Wild",
-            path: "Wild",
+            name: "EthicalGrow",
+            path: "EthicalGrow",
             exclude: [
                 "Resources/Info.plist"
             ],
